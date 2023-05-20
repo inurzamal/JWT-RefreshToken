@@ -9,5 +9,5 @@ import lombok.NoArgsConstructor;
 @NoArgsConstructor
 public class RefreshTokenRequest {
 
-    private String token;
+    private String token; // refresh token (random UUID) that is generated at the time of token generation
 }

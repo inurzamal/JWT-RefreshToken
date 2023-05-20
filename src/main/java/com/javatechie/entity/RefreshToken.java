@@ -17,11 +17,8 @@ public class RefreshToken {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private int id;
-
-    private String token;
-
+    private String token; //refreshToken is random UUID
     private Instant expiryDate;
-
     @OneToOne
     @JoinColumn(name = "user_id", referencedColumnName = "id")
     private UserInfo userInfo;
