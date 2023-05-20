@@ -19,5 +19,5 @@ Step-4: once Token will expire after 3 minutes
 then Request for refresh the token
 Post req: localhost:8080/products/refreshToken
 {
-    "token": "911a8716-77ea-424b-a15b-6b361ddfaa7b"
+    "token": "this refresh token will get from login or in refreshtoken table in the db"
 }
